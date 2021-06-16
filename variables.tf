@@ -291,6 +291,6 @@ variable "enable_host_encryption" {
 }
 
 variable "location" {
-  description = "Location (Region) for AKS Cluster.  If not set, will use Resource Group location"
+  description = "The Azure Region where the resources should exist. Changing this forces a new resources to be created"
   type        = string
 }
